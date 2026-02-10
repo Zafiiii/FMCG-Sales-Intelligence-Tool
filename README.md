@@ -67,8 +67,7 @@ This insight highlights the importance of analyzing both quantity and revenue ra
 The project generates visual outputs such as:
 
 Top 10 Brands by Net Sales (Bar Chart)
-<img width="1143" height="348" alt="image" src="https://github.com/user-attachments/assets/32015f43-ce77-4cee-acb0-f31c64abc716" />
-
+![Sales Report Graph](Final_Sales_Report.png)
 
 These visuals help non-technical stakeholders quickly understand performance trends.
 
