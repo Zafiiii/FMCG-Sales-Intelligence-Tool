@@ -1,18 +1,104 @@
-# FMCG-Sales-Intelligence-Tool
-Python-based automation tool for cleaning and visualizing FMCG distribution data. Developed to transform manual Excel workflows into data-driven insights.
+FMCG Sales Intelligence & Distribution Tool
+📌 Project Overview
 
-### **The Problem I Solved**
-Working in the FMCG sector for 6 years, I noticed a huge gap: we had massive amounts of sales data, but it was all handled manually in messy Excel sheets. This inspired me to teach myself Python and build a solution that turns raw numbers into a business strategy.
+This project is a real-world data analysis tool developed using Python to analyze FMCG (Fast-Moving Consumer Goods) sales and distribution data. The motivation behind this project comes from my 6 years of hands-on experience as a Computer Operator, where I observed that large volumes of sales data were being recorded but not meaningfully analyzed.
 
-### **What This Tool Does**
-- **Data Cleaning:** Automatically handles missing values and inconsistent formatting in distribution reports.
-- **Revenue vs. Quantity Analysis:** Identifies which brands are actually profitable versus those that just have high volume.
-- **Visual Dashboards:** Uses Matplotlib to generate trend graphs for monthly sales meetings.
-- **Fuzzy Matching (In-Progress):** Cleaning unorganized shop names to group them into geographical territories.
+The goal of this project is to transform raw Excel-based sales data into actionable business insights that can support better pricing, distribution, and decision-making.
 
-### **Tech Stack**
-- **Language:** Python (Developed in VS Code)
-- **Libraries:** Pandas, NumPy, Matplotlib
+🎯 Objectives
 
-### **Project Significance**
-This project represents my transition from a Pre-Medical background to Data Science. It demonstrates my ability to identify business inefficiencies and solve them using computational logic.
+Clean and preprocess messy FMCG sales data
+
+Automate repetitive Excel-based reporting tasks
+
+Analyze brand-wise sales performance
+
+Visualize trends to support management decisions
+
+Lay the foundation for advanced analytics such as shop-level demand prediction
+
+📊 Dataset Description
+
+The dataset (Month sale.xlsx) represents monthly FMCG distribution data, including:
+
+Brand Name
+
+Net Sales
+
+Sold Quantity (Cartons)
+
+The data contains missing values and unstructured entries, reflecting real operational data rather than a synthetic dataset.
+
+🛠 Tools & Technologies Used
+
+Python
+
+Pandas – Data cleaning and manipulation
+
+Matplotlib – Data visualization
+
+Microsoft Excel – Source data
+
+GitHub – Version control and documentation
+
+🔍 Key Steps Performed
+
+Imported Excel sales data using Pandas
+
+Handled missing values to ensure accurate analysis
+
+Aggregated brand-wise net sales
+
+Identified top-performing brands
+
+Generated visual bar charts for sales comparison
+
+Exported graphs for reporting and presentation
+
+📈 Key Insight
+
+High sales volume does not always mean high revenue.
+Pricing strategy plays a crucial role in determining overall profitability.
+
+This insight highlights the importance of analyzing both quantity and revenue rather than relying on volume alone.
+
+🖼 Sample Output
+
+The project generates visual outputs such as:
+
+Top 10 Brands by Net Sales (Bar Chart)
+
+These visuals help non-technical stakeholders quickly understand performance trends.
+
+▶ How to Run the Project
+
+Clone this repository
+
+Install required libraries:
+
+pip install pandas matplotlib numpy
+
+Place the Excel file in the project directory
+
+Run the Python script:
+
+python main.py
+🚀 Future Enhancements
+
+Shop-wise sales analysis
+
+Fuzzy matching to group unorganized shop names
+
+Territory-level demand prediction
+
+Integration with dashboards (Power BI / Streamlit)
+
+👤 Author
+
+Zafaran Shah
+Computer Operator | Aspiring Data Scientist
+GitHub: https://github.com/Zafiiii
+
+📌 Note
+
+This project represents my self-learning journey into data analytics and my transition from manual data entry to automated, insight-driven analysis.
